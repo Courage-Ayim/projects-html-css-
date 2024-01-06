@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            display: inline-block;
+            height: 300px;
+            width: 282px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            color: #000;
+            text-decoration: none;
+            transition: 250ms box-shadow ease-in-out;
+            margin: 10px 5px;
+        }
+        .card:hover{
+            box-shadow: 5px 5px 0 rgb(49, 116, 5);
+        }
+        .card:hover .card-title{
+            text-decoration: underline;
+        }
+        .card-text{
+            padding: 10px;
+        }
+       .card-title{
+            font-weight: bold;
+            padding-bottom: 5px;
+            margin-bottom: 5px;
+            border-bottom: 1px solid #ccc;
+        }
+        .card-content{
+            padding: 10px 0 15px;
+            font-size: 13px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Mini Project: Card</h1>
+
+    <a href="#"  class="card">
+        <img src="smileycopy.jpg" alt="">
+        <div class="card-text">
+            <div class="card-title">
+                Hello, I Am a Card!
+            </div>
+            <div class="card-content">
+                Smiles are contagious.
+                Keep ur smiles.
+                Laughter is good for ur soul.
+                A merry heart does good like medicine.
+            </div>
+        </div>
+    </a>
+</body>
+</html>
